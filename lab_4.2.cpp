@@ -19,7 +19,7 @@ int main()
     cout << "---------------------------" << endl;
 
     x = x_start;
-    while (x <= x_start)
+    while (x <= x_end)
     {
         A = pow(x, 2) * sin(x / 2);
         if (x <= -5)
